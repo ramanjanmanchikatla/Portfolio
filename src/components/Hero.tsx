@@ -34,29 +34,32 @@ const Hero = () => {
           
           <div className="flex flex-wrap justify-center gap-6">
             <a
-              href="https://github.com/ramanjananamika"
+              href="https://github.com/ramanjanmanchikatla"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-6 py-3 bg-gray-800 dark:bg-white text-white dark:text-gray-800 rounded-lg hover:bg-gray-700 dark:hover:bg-gray-100 transition-colors duration-200"
+              className="flex items-center gap-2 px-6 py-3 bg-gray-800 dark:bg-white text-white dark:text-gray-800 rounded-lg hover:bg-gray-700 dark:hover:bg-gray-100 hover:shadow-lg transform hover:scale-105 transition-all duration-200"
             >
               <Github size={20} />
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/ramanjananamika"
+              href="https://www.linkedin.com/in/ramanjan-manchikatla-a2087228a/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200"
+              className="flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 hover:shadow-lg transform hover:scale-105 transition-all duration-200"
             >
               <Linkedin size={20} />
               LinkedIn
             </a>
             <a
-              href="mailto:ramanjananamikafolkstc@gmail.com"
-              className="flex items-center gap-2 px-6 py-3 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200"
+              href="/ResumeRamanjan.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download
+              className="flex items-center gap-2 px-6 py-3 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 hover:shadow-lg transform hover:scale-105 transition-all duration-200"
             >
-              <Mail size={20} />
-              Contact
+              <Download size={20} />
+              Resume
             </a>
           </div>
         </div>

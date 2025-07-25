@@ -37,7 +37,7 @@ const About = () => {
             </div>
             
             <div className="space-y-6">
-              <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
+              <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg hover:shadow-lg transform hover:scale-105 transition-all duration-200">
                 <div className="flex items-center gap-3 mb-4">
                   <GraduationCap className="text-blue-600 dark:text-blue-400" size={24} />
                   <h3 className="text-xl font-semibold text-gray-800 dark:text-white">Education</h3>
@@ -47,18 +47,18 @@ const About = () => {
                   <div>
                     <h4 className="font-semibold text-gray-800 dark:text-white">Bachelor's of Engineering</h4>
                     <p className="text-gray-600 dark:text-gray-300">Vasavi College of Engineering</p>
-                    <p className="text-sm text-gray-500">CGPA: 8.9 | Expected 2027</p>
+                    <p className="text-sm text-gray-500">CGPA: 8.3 | Expected 2027</p>
                   </div>
                   
                   <div>
                     <h4 className="font-semibold text-gray-800 dark:text-white">Intermediate</h4>
                     <p className="text-gray-600 dark:text-gray-300">Narayana Junior College</p>
-                    <p className="text-sm text-gray-500">Marks: 963 / 1000 | 2021-2023</p>
+                    <p className="text-sm text-gray-500">98.3% — JEE Main: 94.05 percentile — TS-EAMCET: 8643 rank</p>
                   </div>
                   
                   <div>
                     <h4 className="font-semibold text-gray-800 dark:text-white">Secondary School</h4>
-                    <p className="text-gray-600 dark:text-gray-300">Bhashyam Blooms High School</p>
+                    <p className="text-gray-600 dark:text-gray-300">Sri Chaithanya High School</p>
                     <p className="text-sm text-gray-500">CGPA: 10.0 | 2020</p>
                   </div>
                 </div>
