@@ -30,7 +30,7 @@ const Experience = () => {
                     </div>
                     
                     <p className="text-blue-600 dark:text-blue-400 font-medium mb-2">
-                      2021
+                      2025
                     </p>
                     
                     <div className="flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400 mb-4">
