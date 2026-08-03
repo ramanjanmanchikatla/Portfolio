@@ -1,0 +1,70 @@
+
+import React from 'react';
+import { Github, Linkedin, Mail, Download } from 'lucide-react';
+
+const Hero = () => {
+  return (
+    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 transition-colors duration-300">
+      <div className="container mx-auto px-6 text-center">
+        <div className="max-w-4xl mx-auto">
+          <h1 className="text-5xl md:text-7xl font-bold text-gray-800 dark:text-white mb-6">
+            Ramanjan
+            <span className="block text-blue-600 dark:text-blue-400">Manchikatla</span>
+          </h1>
+          
+          <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
+            Information Technology student with experience across deep learning, computer vision, and ensemble modeling
+          </p>
+          
+          <div className="flex flex-wrap justify-center gap-4 mb-12">
+            <span className="px-4 py-2 bg-white dark:bg-gray-800 rounded-full text-gray-700 dark:text-gray-300 shadow-md">
+              Java
+            </span>
+            <span className="px-4 py-2 bg-white dark:bg-gray-800 rounded-full text-gray-700 dark:text-gray-300 shadow-md">
+              Python
+            </span>
+            <span className="px-4 py-2 bg-white dark:bg-gray-800 rounded-full text-gray-700 dark:text-gray-300 shadow-md">
+              Deep Learning
+            </span>
+            <span className="px-4 py-2 bg-white dark:bg-gray-800 rounded-full text-gray-700 dark:text-gray-300 shadow-md">
+              LangChain
+            </span>
+          </div>
+          
+          <div className="flex flex-wrap justify-center gap-6">
+            <a
+              href="https://github.com/ramanjanmanchikatla"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-6 py-3 bg-gray-800 dark:bg-white text-white dark:text-gray-800 rounded-lg hover:bg-gray-700 dark:hover:bg-gray-100 hover:shadow-lg transform hover:scale-105 transition-all duration-200"
+            >
+              <Github size={20} />
+              GitHub
+            </a>
+            <a
+              href="https://linkedin.com/in/ramanjan"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 hover:shadow-lg transform hover:scale-105 transition-all duration-200"
+            >
+              <Linkedin size={20} />
+              LinkedIn
+            </a>
+            <a
+              href="/ResumeRamanjan.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download
+              className="flex items-center gap-2 px-6 py-3 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 hover:shadow-lg transform hover:scale-105 transition-all duration-200"
+            >
+              <Download size={20} />
+              Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
